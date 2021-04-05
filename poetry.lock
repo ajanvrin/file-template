@@ -38,7 +38,7 @@ tests_no_zope = ["coverage[toml] (>=5.0.2)", "hypothesis", "pympler", "pytest (>
 name = "click"
 version = "7.1.2"
 description = "Composable command line interface toolkit"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
@@ -240,7 +240,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "c4cad5aa53093d050dc7bd2126456a4f4ba3cb81d48c4b2194666d8b2be43d6a"
+content-hash = "1e12421e06eca52b2ea6175e83e201f2f66c865ec2f75c796d9874e73285cb62"
 
 [metadata.files]
 asttokens = [

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "file-template"
-version = "1.0.0"
+version = "1.0.1"
 description = ""
 license = "AGPL-3.0-or-later"
 authors = ["Alexandre Janvrin <alexandre.janvrin@reseau.eseo.fr>"]
@@ -19,12 +19,12 @@ file-template = "file_template.__main__:main"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+click = "^7.1.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 icecream = "^2.1.0"
 neovim = "^0.3.1"
-click = "^7.1.2"
 jedi = "^0.18.0"
 
 [build-system]
