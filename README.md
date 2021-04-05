@@ -16,7 +16,13 @@ pipx install file-template
 
 # CLI Usage
 
-USAGE
+Usage: file-template [OPTIONS] KEYWORD FILE1 FILE2
+
+  Replaces KEYWORD in FILE1 withthe contents of FILE2.
+
+Options:
+  --help  Show this message and exit.
+
 
 # Authors
 
