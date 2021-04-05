@@ -1,8 +1,21 @@
 [tool.poetry]
 name = "file-template"
-version = "0.1.0"
+version = "1.0.0"
 description = ""
+license = "AGPL-3.0-or-later"
 authors = ["Alexandre Janvrin <alexandre.janvrin@reseau.eseo.fr>"]
+readme = "README.md"
+homepage = "https://github.com/LivinParadoX/file-template/"
+repository = "https://pypi.org/project/file-template/"
+classifiers = [
+	"Natural Language :: English",
+	"Operating System :: OS Independent",
+	"Programming Language :: Python",
+]
+include = ["file-template/**/*"]
+
+[tool.poetry.scripts]
+file-template = "file_template.__main__:main"
 
 [tool.poetry.dependencies]
 python = "^3.9"
