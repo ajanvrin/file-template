@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "file-template"
+version = "0.1.0"
+description = ""
+authors = ["Alexandre Janvrin <alexandre.janvrin@reseau.eseo.fr>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+icecream = "^2.1.0"
+neovim = "^0.3.1"
+click = "^7.1.2"
+jedi = "^0.18.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
