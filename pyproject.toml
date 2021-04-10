@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "file-template"
-version = "1.0.4"
+version = "1.1.0"
 description = ""
 license = "AGPL-3.0-or-later"
 authors = ["Alexandre Janvrin <alexandre.janvrin@reseau.eseo.fr>"]
@@ -15,7 +15,7 @@ classifiers = [
 include = ["file-template/**/*"]
 
 [tool.poetry.scripts]
-file-template = "file_template.__main__:main"
+file-template = "file_template.cli:main"
 
 [tool.poetry.dependencies]
 python = "^3.9"
